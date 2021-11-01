@@ -133,12 +133,19 @@ optional-argument-single argument string
 # Batch vs.Concurrent modes
 
 Batch mode:
+
 commands run squentially
+
 first runs then second
+
 ``` command1;command2```
+
 Concurrent mode:
+
 commands run in parallel
+
 Command works works on background and pass input to command2 in foreground.
+
 ``` command1 & command2```
 
 
