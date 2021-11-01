@@ -60,20 +60,31 @@ ls | sort -r
 man ls | head -20
 ```
 Filters -transforms input data into output data
+
          -wc,cat,more,head,sort and also can be chained together.
+         
 Pipe - denoted by | 
+
      -used for chaining filter commands
      -```command1|command2```
+     
      -output of the first cmd is input of the second command.
      -basically pipe means pipeline
+     
          ``` ls | sort -r represnts reverse sorting```
+         
 Variables-scope limited to shell
+
          -use set to list all shell variables
+         
          -```set | head -4```
+         
          -assigning variables with = not having spaces var=value
+         
          ``` name='chris'
              #printing we use 
              echo $name```
+             
          -deleting variables 
          ``` unset name```
 Environment Variables -have extended scope
