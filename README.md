@@ -59,4 +59,26 @@ ls | sort -r
 
 man ls | head -20
 ```
+# Shell SCripting basics
+-list of commands interpreted by a scripting lng.
+-scripts used for automating processes
+-shell script is an executable text file with an interpreter directive
+``` shebang``` directive:
+
+its usually represented as:
+```
+#!interpreter [optional argument]
+```
+Interpreter- is the absolute path to an executable program
+
+optional-argument-single argument string
+
+
+
+
+
+
+  
+
+![shell](https://user-images.githubusercontent.com/55980747/139660016-d0ac5505-a6d4-4096-a90a-29a71b3236c7.png)
 
