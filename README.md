@@ -53,3 +53,10 @@ If you don't have bash simply type 'bash' on the CLI(command line)
 # Shell commands for Neworking apps
 ![NETWORKS](https://user-images.githubusercontent.com/55980747/139651959-6d5dbb89-34ce-45bc-a0ae-1a0799133db2.png)
 
+# Shell Pipes and Filters
+```
+ls | sort -r
+
+man ls | head -20
+```
+
