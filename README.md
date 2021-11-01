@@ -121,3 +121,24 @@ optional-argument-single argument string
 
 ![shell](https://user-images.githubusercontent.com/55980747/139660016-d0ac5505-a6d4-4096-a90a-29a71b3236c7.png)
 
+# MetaCharacters in Bash Shell
+
+![metacha](https://user-images.githubusercontent.com/55980747/139666489-a6974881-96c8-4348-a646-d590d93b8018.png)
+
+# Input/Output Redirection
+-used for redirecting
+![carbon (3)](https://user-images.githubusercontent.com/55980747/139667671-c3232ddd-418c-40bf-b79d-a63c5fe879ec.png)
+
+
+# Batch vs.Concurrent modes
+
+Batch mode:
+commands run squentially
+first runs then second
+``` command1;command2```
+Concurrent mode:
+commands run in parallel
+Command works works on background and pass input to command2 in foreground.
+``` command1 & command2
+
+
