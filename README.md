@@ -53,12 +53,39 @@ If you don't have bash simply type 'bash' on the CLI(command line)
 # Shell commands for Neworking apps
 ![NETWORKS](https://user-images.githubusercontent.com/55980747/139651959-6d5dbb89-34ce-45bc-a0ae-1a0799133db2.png)
 
-# Shell Pipes and Filters
+# Shell Pipes,Variables and Filters
 ```
 ls | sort -r
 
 man ls | head -20
 ```
+Filters -transforms input data into output data
+         -wc,cat,more,head,sort and also can be chained together.
+Pipe - denoted by | 
+     -used for chaining filter commands
+     -```command1|command2```
+     -output of the first cmd is input of the second command.
+     -basically pipe means pipeline
+         ``` ls | sort -r represnts reverse sorting```
+Variables-scope limited to shell
+         -use set to list all shell variables
+         -```set | head -4```
+         -assigning variables with = not having spaces var=value
+         ``` name='chris'
+             #printing we use 
+             echo $name```
+         -deleting variables 
+         ``` unset name```
+Environment Variables -have extended scope
+                     ``` export variablenme ```
+                     -listing all env variables use ```env```
+                     
+                     ``` env | grep variablename```
+                     
+         
+         
+
+
 # Shell SCripting basics
 -list of commands interpreted by a scripting lng.
 -scripts used for automating processes
