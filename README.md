@@ -139,6 +139,6 @@ first runs then second
 Concurrent mode:
 commands run in parallel
 Command works works on background and pass input to command2 in foreground.
-``` command1 & command2
+``` command1 & command2```
 
 
