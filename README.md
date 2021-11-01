@@ -61,14 +61,14 @@ man ls | head -20
 ```
 Filters -transforms input data into output data
 
-         -wc,cat,more,head,sort and also can be chained together.
+       -wc,cat,more,head,sort,grep and also can be chained together.
          
-Pipe - denoted by | 
+Pipe - denoted by |
 
      -used for chaining filter commands
      -```command1|command2```
      
-     -output of the first cmd is input of the second command.
+     -output of the first cmd is input of the second command
      -basically pipe means pipeline
      
          ``` ls | sort -r represnts reverse sorting```
@@ -88,6 +88,7 @@ Variables-scope limited to shell
          -deleting variables 
          ``` unset name```
 Environment Variables -have extended scope
+
                      ``` export variablenme ```
                      -listing all env variables use ```env```
                      
