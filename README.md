@@ -8,7 +8,7 @@ Shell- user interface for running commands/Scripting language to automate tasks.
 -Others include:sh,ksh,tcsh,zsh and fish.
 ```
 
-# Bash Shell(Born again shell)
+# Bash Shell(Bourne again shell)
 
 For checking default shell on your command line type:
 
