@@ -22,7 +22,7 @@ if you don't have bash simply type 'bash' on the CLI(command line)
    -compression and archiving
    -performing network operations
    
- #Commnds for Getinfo:
+ # Shell Commands for Getinfo:
   
  ![getinfo](https://user-images.githubusercontent.com/55980747/139648865-d87f9d12-8fc5-4545-b7cc-149a9ac05654.png)
  
