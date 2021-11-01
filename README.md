@@ -3,25 +3,32 @@
 Shell- user interface for running commands/Scripting language to automate tasks.
 
 # Shells
+```
 -Default one is Bash
 -Others include:sh,ksh,tcsh,zsh and fish.
+```
 
 # Bash Shell(Born again shell)
 
 For checking default shell on your command line type:
+
+
 ![Shell](https://user-images.githubusercontent.com/55980747/139646135-a1f39f07-0a94-4807-9004-809a4956e260.png)
 
 
-if you don't have bash simply type 'bash' on the CLI(command line)
+
+
+If you don't have bash simply type 'bash' on the CLI(command line)
 
 
 # Shell command applications
+```
    -Running batch jobs (ETL)
    -Getting information
    -printing files and strings
    -compression and archiving
    -performing network operations
-   
+   ```
  # Shell Commands for Getinfo:
   
  ![getinfo](https://user-images.githubusercontent.com/55980747/139648865-d87f9d12-8fc5-4545-b7cc-149a9ac05654.png)
