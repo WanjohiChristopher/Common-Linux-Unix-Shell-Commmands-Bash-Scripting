@@ -35,6 +35,9 @@ less seasonal/spring.csv seasonal/summer.csv
 
 Head of the dataset by use of n to specify lines
 head -n 5 seasonal/winter.csv
+
+Viewing files even if they are nested in a directory
+ls -R -F
 ```
 # Bash Shell(Bourne again shell)
 
