@@ -24,6 +24,12 @@ Deleting files
 
 rm seasonal/summer.csv
 ```
+```
+Creating and removing directory
+
+rmdir-removes current directory
+mkdir creates a new directory
+```
 # Bash Shell(Bourne again shell)
 
 For checking default shell on your command line type:
