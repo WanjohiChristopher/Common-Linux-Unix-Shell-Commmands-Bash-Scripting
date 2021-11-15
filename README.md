@@ -6,6 +6,8 @@ Shell- user interface for running commands/Scripting language to automate tasks.
 ```
 -Default one is Bash
 -Others include:sh,ksh,tcsh,zsh and fish.
+
+~ means home directory.
 ```
 
 # Bash Shell(Bourne again shell)
