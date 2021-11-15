@@ -214,3 +214,7 @@ grep can search for patterns as well; we will explore those in the next course. 
 
 -v: invert the match, i.e., only show lines that don't match
 ```
+```
+Data Manipulation Pipeline
+ cut -d , -f 2 seasonal/summer.csv | grep -v Tooth | head -n 1
+ ```
