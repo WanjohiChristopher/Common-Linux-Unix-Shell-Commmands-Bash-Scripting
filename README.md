@@ -19,6 +19,10 @@ mv seasonal/spring.csv seasonal/summer.csv backup
 Renaming Files
 
 mv winter.csv winter.csv.bck
+
+Removing files
+
+rm seasonal/summer.csv
 ```
 # Bash Shell(Bourne again shell)
 
