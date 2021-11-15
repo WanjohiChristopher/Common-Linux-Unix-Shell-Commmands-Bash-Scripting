@@ -29,6 +29,9 @@ Creating and removing directory
 
 rmdir-removes current directory
 mkdir creates a new directory
+
+Viewing content of files like csv use spacebar or n or p for previous and q for quiting
+less seasonal/spring.csv seasonal/summer.csv
 ```
 # Bash Shell(Bourne again shell)
 
