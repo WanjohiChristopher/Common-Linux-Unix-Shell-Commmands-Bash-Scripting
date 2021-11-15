@@ -191,11 +191,11 @@ Command works works on background and pass input to command2 in foreground.
 head and tail select rows, cut selects columns, and grep selects lines according to what they contain. 
 
 In its simplest form, grep takes a piece of text followed by one or more filenames and prints all of the lines in those files that contain that text.
-
+```
 For example, grep bicuspid seasonal/winter.csv prints lines from winter.csv that contain "bicuspid".
-
+```
 grep can search for patterns as well; we will explore those in the next course. What's more important right now is some of grep's more common flags:
-
+```
 -c: print a count of matching lines rather than the lines themselves
 
 -h: do not print the names of files when searching multiple files
@@ -207,4 +207,4 @@ grep can search for patterns as well; we will explore those in the next course. 
 -n: print line numbers for matching lines
 
 -v: invert the match, i.e., only show lines that don't match
-
+```
