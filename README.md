@@ -38,6 +38,12 @@ head -n 5 seasonal/winter.csv
 
 Viewing files even if they are nested in a directory
 ls -R -F
+
+Soring a command output into a file
+example
+
+tail -n 5 seasonal/winter.csv >last.csv
+
 ```
 ```
 SELECTING COLUMNS
