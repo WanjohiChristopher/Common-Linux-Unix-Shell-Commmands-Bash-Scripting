@@ -230,4 +230,15 @@ Pipelines often use grep to get rid of unwanted records and then sort to put the
 ```
 cut -d , -f 2 seasonal/winter.csv | grep -v Tooth |sort -r
 ```
+## Removing Duplicates
 
+We use Uniq to remove adjacent duplicates. -c is for count
+
+```
+cut -f 2 -d , seasonal/winter.csv | grep  -v Tooth | sort |uniq -c
+      4 bicuspid
+      7 canine
+      6 incisor
+      4 molar
+      4 wisdom
+      ```
