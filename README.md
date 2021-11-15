@@ -20,7 +20,7 @@ Renaming Files
 
 mv winter.csv winter.csv.bck
 
-Removing files
+Deleting files
 
 rm seasonal/summer.csv
 ```
