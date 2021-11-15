@@ -15,7 +15,11 @@ moving a file to backup
 
 mv seasonal/spring.csv seasonal/summer.csv backup
 ```
+```
+Renaming Files
 
+mv winter.csv winter.csv.bck
+```
 # Bash Shell(Bourne again shell)
 
 For checking default shell on your command line type:
