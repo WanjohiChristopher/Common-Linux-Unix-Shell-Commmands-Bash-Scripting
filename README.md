@@ -218,3 +218,13 @@ grep can search for patterns as well; we will explore those in the next course. 
 Data Manipulation Pipeline
  cut -d , -f 2 seasonal/summer.csv | grep -v Tooth | head -n 1
  ```
+ 
+
+## Sort lines of text
+
+As its name suggests, sort puts data in order.
+
+By default it does this in ascending alphabetical order, but the flags -n and -r can be used to sort numerically and reverse the order of its output, while -b tells it to ignore leading blanks and -f tells it to fold case (i.e., be case-insensitive).
+
+Pipelines often use grep to get rid of unwanted records and then sort to put the remaining records in order.
+
