@@ -8,6 +8,8 @@ Shell- user interface for running commands/Scripting language to automate tasks.
 -Others include:sh,ksh,tcsh,zsh and fish.
 
 ~ means home directory.
+copying files ND SAVING TEM IN BACKUP
+cp seasonal/summer.csv backup/summer.bck
 ```
 
 # Bash Shell(Bourne again shell)
