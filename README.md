@@ -10,6 +10,10 @@ Shell- user interface for running commands/Scripting language to automate tasks.
 ~ means home directory.
 copying files ND SAVING TEM IN BACKUP
 cp seasonal/summer.csv backup/summer.bck
+
+moving a file to backup
+
+mv seasonal/spring.csv seasonal/summer.csv backup
 ```
 
 # Bash Shell(Bourne again shell)
