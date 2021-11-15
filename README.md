@@ -245,3 +245,10 @@ cut -f 2 -d , seasonal/winter.csv | grep  -v Tooth | sort |uniq -c
       # Looping
       
       for filetype in docx odt pdf; do echo $filetype; done
+ # Saving of Files and using loops to display them
+ ```
+ $ files=seasonal/*.csv$ for f in $files; do echo $f; done
+seasonal/autumn.csvseasonal/spring.csv
+seasonal/summer.csv
+seasonal/winter.csv
+```
