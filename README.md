@@ -32,6 +32,9 @@ mkdir creates a new directory
 
 Viewing content of files like csv use spacebar or n or p for previous and q for quiting
 less seasonal/spring.csv seasonal/summer.csv
+
+Head of the dataset by use of n to specify lines
+head -n 5 seasonal/winter.csv
 ```
 # Bash Shell(Bourne again shell)
 
