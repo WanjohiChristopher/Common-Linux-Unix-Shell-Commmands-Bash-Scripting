@@ -39,7 +39,8 @@ head -n 5 seasonal/winter.csv
 Viewing files even if they are nested in a directory
 ls -R -F
 ```
-```SELECTING COLUMNS
+```
+SELECTING COLUMNS
 
 which means "select columns 2 through 5 and columns 8, using comma as the separator". cut uses -f (meaning "fields") to specify columns and -d (meaning "delimiter") to specify the separator. You need to specify the latter because some files may use spaces, tabs, or colons to separate columns.
 cut -f 2-5 ,8 -d ,chris.csv
