@@ -241,4 +241,7 @@ cut -f 2 -d , seasonal/winter.csv | grep  -v Tooth | sort |uniq -c
       6 incisor
       4 molar
       4 wisdom
-      ```
+```
+      # Looping
+      
+      for filetype in docx odt pdf; do echo $filetype; done
